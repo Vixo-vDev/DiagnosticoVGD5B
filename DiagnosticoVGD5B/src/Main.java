@@ -8,10 +8,8 @@ public class Main {
         Scanner read = new Scanner(System.in);
         int numero, suma = 0;
 
-        //Variable como bandera
-        boolean bandera = true;
 
-        while(bandera){
+        while(true){
             System.out.println("Ingresa un número: ");
             numero = read.nextInt();
             if(numero == 0){
