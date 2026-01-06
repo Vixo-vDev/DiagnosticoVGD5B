@@ -17,7 +17,7 @@ public class Main {
             }
 
             System.out.println("Se ha ingresado el número: "+ numero);
-            suma = suma + numero;
+            suma += numero;
 
         }
 
